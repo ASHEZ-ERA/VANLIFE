@@ -1,0 +1,14 @@
+1. What is route/ url parameter?
+A portion of our route path that is a placeholder for what will eventually be the actual segment in the URL of the page 
+
+2. what is the primary reason to use a nested route?
+whenever we want to use a shared User Interface between routes in our app
+
+3. what is a Layout route?
+it is a parent route of some nested routes that contains just the portion of the UI that will be shared. It will use an Outlet component
+
+4. WHat is an Outlet component?
+we use it inside a Layout/parent route that is wrapping children routes. It renders the matching child routes "elements " prop given in its route definition  
+
+5. What is an "Index ROute"?
+Its the "default route" we want to render when the path of the parent route matches. It gives us a chance to render an element inside the parents <Outlet/> at same path as the parent route
